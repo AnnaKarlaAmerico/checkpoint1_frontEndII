@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,700&display=swap');
 
 * {
   margin: 0;
@@ -7,11 +7,11 @@
 }
 
 body {
-  background-color: #424349;
+  background-color: #191A19;              /*#424349*/
   background-size: contain;
   color: white;
   height: 100vh;
-  font-family: 'Mochiy Pop P One', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   
 }
 
@@ -60,7 +60,7 @@ img {
 
 #font3 {
   font-size: 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 900;
   padding: 5px;
   color: #eaede6;
@@ -75,8 +75,8 @@ img {
 .font5 {
   display: flex;
   flex-direction: column;
-  font-size: 24px;
-  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
   font-weight:bold;
   line-height: 0;
   padding: 15px;
@@ -86,8 +86,8 @@ img {
 }
 
 #font6 {
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 900;
   padding: 50px;
   color: #eaede6;
@@ -96,7 +96,7 @@ img {
 
 .font7 {
   font-size: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight:bold;
   line-height: 0;
   padding: 15px;
@@ -136,8 +136,8 @@ input {
 }
 
 #botao-postar {
-  color: rgb(235, 251, 0);
-  background-color: #0407c7;
+  color: #191A19;
+  background-color: #4E9F3D;
   width: 340px;
   transition: 0.5s;
   height: 60px;
@@ -147,7 +147,7 @@ input {
 }
 
 #botao-postar:hover {
-  background-color: #f1e210;
+  background-color: #1E5128;
   color: #020202;
   font-style: oblique;
   transition: 0.5s;
@@ -164,7 +164,7 @@ input {
 
 #postagem div {
   display: flex;
-  background: #a41515;
+  background: rgb(122, 120, 120);
   border-radius: 12px;  
   flex-direction: column;
 }
@@ -172,21 +172,22 @@ input {
 #postagem h3 {
   align-items: center;
   color: #ffffff;
-  font-size: 55px;
+  font-size: 45px;
 
 }
 
 #postagem span {
   color: #ffffff;
   align-items: center;
-  font-size: 35px;
-  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-family: #4E9F3D;
   font-weight: 400;
 }
 
 #postagem img {
-  height: 350px;
-  width: 350px;
+  height: 400px;
+  width: 400px;
+  
   
 }
 
